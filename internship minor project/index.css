@@ -1,0 +1,43 @@
+#allpic
+{   padding:1rem 1rem;
+    display:grid;
+    gap: 10px;
+    grid-template-columns:auto auto auto;
+}
+@media only screen and (max-width:800px)
+{#allpic
+    {display:flex;
+        flex-direction: column;
+    }
+}
+#allpic > div
+{   overflow:scroll; 
+    border-width:3px;
+    border-style: solid;
+}
+#header > img{
+  width:100%;
+  height:50px;  
+}
+img{
+    height: 60%;
+    width: 60%;
+    display: inline;}
+.section::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #8070D4;
+    border: 6px solid rgba(0,0,0,0.2);
+}
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+ ::-webkit-scrollbar-thumb {
+    background:#f2f2f2; 
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: wheat; 
+  }
+  h1,h2,h3,p{font-family:cursive;}
+  body{margin:0;}
